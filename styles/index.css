@@ -153,4 +153,53 @@ main section {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container{
+    display: flex;
+    gap: 55px;
+}
+
+.resume-item-des{
+    color: #757575;
+}
+.resume-item-int{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer related styles */
+footer{
+    display: flex;
+    gap: 105px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"],input[type="email"] ,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 19px;
+} 
+.social-links a{
+    margin-right:35px;
 }
